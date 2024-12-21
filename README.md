@@ -1,0 +1,2 @@
+# flaucon
+Ma config NixOS
