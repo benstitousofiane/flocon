@@ -10,14 +10,14 @@
       ./hardware-configuration.nix
     ];
 
-  #driver pour le son sur mac
-    boot = {
-    extraModulePackages = [
-      (pkgs.callPackage ../packages/snd-hda-cs8409/default.nix {
-        kernel = pkgs.linux_6_6;
-      })
-    ];
-  };
+  #driver pour le son sur mac avec carte audio Cirrus Logic CS8409
+  #  boot = {
+  #  extraModulePackages = [
+  #    (pkgs.callPackage ../packages/snd-hda-cs8409/default.nix {
+  #      kernel = pkgs.linux_6_6;
+  #    })
+  #  ];
+  #};
 
   #version noyau linux
   boot.kernelPackages = pkgs.linuxPackages;
