@@ -1,4 +1,4 @@
-#Pour mac avec carte audio Cirrus Logic CS8409
+#Pour mac avec carte audio Cirrus Logic CS8409, changer le nom du noyau "linux_6_6" si vous avez une autre version
 { stdenv, lib, fetchgit, linuxKernel, kernel ? linuxKernel.kernels.linux_6_6
 , version ? "d0d785dc1859b09299bde6d0f1d6786a0d610e7f" }:
 
