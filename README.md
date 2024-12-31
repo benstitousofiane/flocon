@@ -1,2 +1,2 @@
-# flaucon
+# flocon
 Ma config NixOS
