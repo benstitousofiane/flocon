@@ -89,12 +89,14 @@
     linuxHeaders
 
     gcc gnumake
+    
+    vscode processing
+    
+    git neofetch alsa-utils playerctl zip
 
-    git neofetch alsa-utils playerctl
+    alacritty waybar wofi swww hyprshot xwaylandvideobridge
 
-    alacritty waybar wofi swww
-
-    chromium discord pavucontrol hyprshot
+    discord discord-canary brave firefox pavucontrol nemo zathura
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
