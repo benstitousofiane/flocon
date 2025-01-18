@@ -99,6 +99,10 @@
     discord discord-canary brave firefox pavucontrol nemo zathura
   ];
 
+ fonts.packages = with pkgs; [
+    nerdfonts font-awesome noto-fonts monocraft
+  ];
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
